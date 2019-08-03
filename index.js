@@ -22,19 +22,20 @@ function destructivelyAppendKitten(name){
 
  function appendKitten(name){
    var newArr = kittens.concat(name)
-   return kittens
+   return newArr
  }
 
   function prependKitten(name){
     var newArr = name.concat(kittens)
+    return newArr
   }
 
  function removeLastKitten(){
    newArr = kittens.slice(0,(kittens.length - 1))
-   return kittens 
+   return newArr
  }
 
 function removeFirstKitten(){
   newArr = kittens.slice(1)
-  return kittens
+  return newArr
 }
