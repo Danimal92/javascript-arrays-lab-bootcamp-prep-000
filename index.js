@@ -26,7 +26,7 @@ function destructivelyAppendKitten(name){
  }
 
   function prependKitten(name){
-    var newArr = name.concat(...kittens)
+    var newArr = [name].concat(kittens)
     return newArr
   }
 
