@@ -30,9 +30,10 @@ function destructivelyAppendKitten(name){
   }
 
  function removeLastKitten(){
-   
+   newArr = kittens.slice(0,(kittens.length - 1))
+   return kittens 
  }
 
 function removeFirstKitten(){
-  
+  newArr = 
 }
