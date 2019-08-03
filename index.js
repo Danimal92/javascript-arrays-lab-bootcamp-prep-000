@@ -26,21 +26,13 @@ function destructivelyAppendKitten(name){
  }
 
   function prependKitten(name){
-    
+    var newArr = name.concat(kittens)
   }
 
-  describe('removeLastKitten()', function() {
-    it('removes the last kitten in the kittens array and returns a new array, leaving the kittens array unchanged', function() {
-      window.kittens = ['Milo', 'Otis', 'Garfield'];
-      expect(removeLastKitten()).toEqual(["Milo", "Otis"])
+ function removeLastKitten(){
+   
+ }
 
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-    })
-  })
-
-  describe('removeFirstKitten()', function() {
-    it('removes the first kitten from the kittens array and returns a new array, leaving the kittens array unchanged', function() {
-      window.kittens = ['Milo', 'Otis', 'Garfield'];
-      expect(removeFirstKitten()).toEqual(["Otis", "Garfield"])
-
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
+function removeFirstKitten(){
+  
+}
