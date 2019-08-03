@@ -26,16 +26,16 @@ function destructivelyAppendKitten(name){
  }
 
   function prependKitten(name){
-    var newArr = name.concat(kittens)
+    var newArr = name.concat(...kittens)
     return newArr
   }
 
  function removeLastKitten(){
-   newArr = kittens.slice(0,(kittens.length - 1))
+   var newArr = kittens.slice(0,(kittens.length - 1))
    return newArr
  }
 
 function removeFirstKitten(){
-  newArr = kittens.slice(1)
+  var newArr = kittens.slice(1)
   return newArr
 }
