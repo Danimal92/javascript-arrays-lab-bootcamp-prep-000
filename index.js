@@ -10,16 +10,12 @@ function destructivelyAppendKitten(name){
     return kittens
   }
 
-      function destructivelyRemoveLastKitten()', function() {
-    it('removes the last kitten from the kittens array', function() {
-      window.kittens = ['Milo', 'Otis', 'Garfield'];
-      destructivelyRemoveLastKitten()
+      function destructivelyRemoveLastKitten(){
+        kittens.pop()
+        return kittens
+      }
 
-      expect(window.kittens).toEqual(["Milo", "Otis"])
-    })
-  })
-
-  describe('destructivelyRemoveFirstKitten()', function() {
+ function destructivelyRemoveFirstKitten()', function() {
     it('removes the First kitten from the kittens array', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
       destructivelyRemoveFirstKitten()
